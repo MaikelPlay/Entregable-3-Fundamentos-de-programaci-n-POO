@@ -1,0 +1,23 @@
+Descargar node ultima versión
+En terminal, poner npm init -y
+package.json poner "type": "module", y dentro de scripts entre las llaves, poner "build": "tsc",
+npm install typescript --save-dev si es una dependencia de desarrollo(instalar si quieres programar y modificar el código), --save si es dependencia de producción (necesitas tener instalar para que la app se pueda ejecutar)
+luego npx tsc --init para crear el tsconfig.json, solo poner:
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2020",
+
+    // Other Outputs
+    "sourceMap": true,
+    "outDir": "dist",
+  },
+  "include": ["src/**/*"],
+}
+crear carpeta dist, src y public. En src guardaremos los archivos typescript, y en dist creará los archivos javascript
+Crear archivos ts en src, un index.ts, exportar y importar, modificar index.html de public y poner:  <script src="..dist/index.js" type="module" async></script>
+npm run build para compilar y que aparezcan los archivos .js en dist
+
+Git: git init,  git add .   git commit -m "...",  git checkout -b develop
+
