@@ -3,16 +3,19 @@ export class Disco {
     #capacidad: number;
     #contenido: string;
     #tipo: string;
+    #velocidad: number;
 
-    constructor(nombre: string, capacidad: number, tipo: string) {
+    constructor(nombre: string, capacidad: number, tipo: string, velocidad: number) {
         this.#nombre = nombre;
         this.#capacidad = capacidad;
         this.#contenido = "";
         this.#tipo = tipo;
+        this.#velocidad = velocidad;
+
     }
 
-    girarDisco(): string {
-        return `El disco ${this.#nombre} está girando.`;
+    girarDisco(): void{
+        console.log(`El disco ${this.#nombre} está girando.`);
     }
 
     informacion(): void {
@@ -42,5 +45,11 @@ export class Disco {
     }
     set tipo(tipo: string) {
         this.#tipo = tipo;
+    }
+    get velocidad(): number {
+        return this.#velocidad;
+    }
+    set velocidad(velocidad: number) {
+        this.#velocidad = velocidad;
     }
 }
