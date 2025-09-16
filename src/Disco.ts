@@ -5,10 +5,10 @@ export class Disco {
     #tipo: string;
     #velocidad: number;
 
-    constructor(nombre: string, capacidad: number, tipo: string, velocidad: number) {
+    constructor(nombre: string, capacidad: number, contenido: string, tipo: string, velocidad: number) {
         this.#nombre = nombre;
         this.#capacidad = capacidad;
-        this.#contenido = "";
+        this.#contenido = contenido;
         this.#tipo = tipo;
         this.#velocidad = velocidad;
 
