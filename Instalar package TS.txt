@@ -16,7 +16,7 @@ luego npx tsc --init para crear el tsconfig.json, solo poner:
   "include": ["src/**/*"],
 }
 crear carpeta dist, src y public. En src guardaremos los archivos typescript, y en dist creará los archivos javascript
-Crear archivos ts en src, un index.ts, exportar y importar, modificar index.html de public y poner:  <script src="..dist/index.js" type="module" async></script>
+Crear archivos ts en src, un index.ts, exportar y importar, modificar index.html de public y poner:  <script src="../dist/index.js" type="module" async></script>
 npm run build para compilar y que aparezcan los archivos .js en dist
 
 Git: git init,  git add .   git commit -m "...",  git checkout -b develop
