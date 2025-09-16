@@ -1,5 +1,5 @@
-import {Cd} from "./cd.js";
-import {DiscoDuro} from "./discoDuro.js";
+import { Cd } from "./Cd.js";
+import { DiscoDuro } from "./DiscoDuro.js";
 
 
 const CD1 = new Cd("CD1", 700, "Música", "CD-ROM", 200);

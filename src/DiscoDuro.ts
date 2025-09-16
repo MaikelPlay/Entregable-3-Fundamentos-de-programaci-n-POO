@@ -1,5 +1,5 @@
-import {IDatos} from "./IDatos.js";
-import {Disco} from "./disco.js";
+import { IDatos } from "./IDatos.js";
+import { Disco } from "./Disco.js";
 
 export class DiscoDuro extends Disco implements IDatos {
 
@@ -14,7 +14,7 @@ export class DiscoDuro extends Disco implements IDatos {
         console.log("Leyendo datos del disco duro con un cabezal magnético");
     }
     girarDisco(): void {
-        console.log(`El CD ${this.nombre} está girando a ${this.velocidad}.`);
+        console.log(`El Disco Duro ${this.nombre} está girando a ${this.velocidad}.`);
     }
 
 
