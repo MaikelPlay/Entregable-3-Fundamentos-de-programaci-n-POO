@@ -11,10 +11,10 @@ export class Blueray extends Disco implements IDatos {
     }
 
     escribirDatos(datos: string): void{
-        console.log("Escribiendo datos en el Blueray con láser azul");
+        console.log("Escribiendo datos en el Blueray con láser");
     }
     leerDatos(): void {
-        console.log("Leyendo datos del Blueray con láser azul");
+        console.log("Leyendo datos del Blueray con láser");
     }
 
 

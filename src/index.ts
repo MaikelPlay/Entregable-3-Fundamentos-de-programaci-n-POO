@@ -22,50 +22,61 @@ CD1.leerDatos();
 CD1.escribirDatos("Nuevas canciones");
 CD1.informacion();
 console.log(" ");
+
 CD2.girarDisco();
 CD2.leerDatos();
 CD2.escribirDatos("Nuevas fotos");
 CD2.informacion();
 console.log(" ");
+
 DiscoDuro1.girarDisco();
 DiscoDuro1.leerDatos();
 DiscoDuro1.escribirDatos("Nuevos documentos");
 DiscoDuro1.informacion();
 console.log(" ");
+
 DiscoDuro2.girarDisco();
 DiscoDuro2.leerDatos();
 DiscoDuro2.escribirDatos("Nuevos videos");
 DiscoDuro2.informacion();
 console.log(" ");
+
 Vinilo1.girarDisco();
 Vinilo1.leerDatos();
 Vinilo1.escribirDatos("Nuevas canciones clásicas");
 Vinilo1.informacion();
 console.log(" ");
+
 Vinilo2.girarDisco();
 Vinilo2.leerDatos();
 Vinilo2.escribirDatos("Nuevas canciones de rock");
 Vinilo2.informacion();
 console.log(" ");
+
 Blueray1.girarDisco();
 Blueray1.leerDatos();
 Blueray1.escribirDatos("Nuevas películas"); 
 Blueray1.informacion();
 console.log(" ");
+
 Blueray2.girarDisco();
 Blueray2.leerDatos();
 Blueray2.escribirDatos("Nuevos juegos");
 Blueray2.informacion();
 console.log(" ");
+
 Rueda1.girarDisco();
 Rueda1.informacion();
-console.log(" ");   
+console.log(" ");  
+
 Rueda2.girarDisco();
 Rueda2.informacion();
 console.log(" ");
+
 Fresbee1.girarDisco();
 Fresbee1.informacion();
 console.log(" ");
+
 Fresbee2.girarDisco();
 Fresbee2.informacion();
 console.log(" ");

@@ -6,6 +6,6 @@ export class Fresbee extends Disco {
     }
 
     girarDisco(): void {
-        console.log(`El Fresbee ${this.nombre} está girando a ${this.velocidad}.`);
+        console.log(`El Fresbee ${this.nombre} está girando en el aire.`);
     }
 }
